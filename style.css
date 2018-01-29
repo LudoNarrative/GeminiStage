@@ -1,10 +1,21 @@
 
-#game {
+
+
+.container {
 	display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
 }
+
+pre {
+	font-family: helvetica-light;
+}
+
+div#instructions h2 {
+	margin-top:0;
+}
+
 body {
 	font-family: Abel;
 }
