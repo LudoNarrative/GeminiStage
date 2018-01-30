@@ -77,7 +77,7 @@ With labels:
 The red triangle can be dragged around
 
 If the red triangle overlaps a blue triangle,
-  the blue triangle (which?) erases the color underneath it
+  the blue triangle erases the color underneath it
 
 If the amount of blue on screen is less than 1,
   the game is lost
@@ -95,7 +95,7 @@ Without labels:
 The red triangle can be dragged around
 
 If the red triangle overlaps a blue triangle,
-  the blue triangle (which?) erases the color underneath it
+  the blue triangle erases the color underneath it
 
 If the amount of blue on screen is less than 1,
   the game is lost

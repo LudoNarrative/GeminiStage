@@ -102,8 +102,8 @@ If concentration is less than 1,
 
 If the mouse button is held,
   concentration decreases over time by 1,
-  the red triangle (which?) points towards the cursor,
-  and the red triangle moves to its left by 5
+  all the red triangles point towards the cursor
+  and move to their left by 5
 
 Every tick,
   red triangles that overlap are separated,
@@ -126,8 +126,8 @@ If concentration is less than 1,
 
 If the mouse button is held,
   resource 1 decreases over time by 1,
-  the red triangle (which?) points towards the cursor,
-  and the red triangle moves to its left by 5
+  all the red triangles point towards the cursor
+  and move to their left by 5
 
 Every tick,
   red triangles that overlap are separated,

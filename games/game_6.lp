@@ -106,7 +106,7 @@ When the blue triangle is clicked,
 
 When a red triangle overlaps a blue triangle,
   the color behind the red triangle is erased
-  a red triangle (which?) disappears
+  the red triangle disappears
 
 When the amount of blue is greater than 9,
   the game is lost
@@ -116,8 +116,8 @@ Every tick,
   overlapping red triangles are separated,
   the value of resource 1 is set to the amount of clear on the screen
   blue is drawn under the cursor
-  the red triangle's (which?) health decreases over time by 5
-  the red triangle's (which?) health increases over time by 4
+  all red triangles' health decreases over time by 5
+  all red triangles' health increases over time by 4
   the blue triangle moves forward by an amount equal to resource 1
 
 ==========
@@ -138,7 +138,7 @@ When the blue triangle is clicked,
 
 When a red triangle overlaps a blue triangle,
   the color behind the red triangle is erased
-  a red triangle (which?) disappears
+  the red triangle disappears
 
 When the amount of blue is greater than 9,
   the game is lost
@@ -148,6 +148,6 @@ Every tick,
   overlapping red triangles are separated,
   the value of resource 1 is set to the amount of clear on the screen
   blue is drawn under the cursor
-  the red triangle's (which?) health decreases over time by 5
-  the red triangle's (which?) health increases over time by 4
+  all red triangles' health decreases over time by 5
+  all red triangles' health increases over time by 4
   the blue triangle moves forward by an amount equal to resource 1

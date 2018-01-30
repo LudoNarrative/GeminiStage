@@ -116,10 +116,10 @@ When a friend is clicked,
 When fullness is less than 7 and food overlaps friend,
   Satiation increases by 4
   Fullness increases by 4
-  A food (which?) disappears
+  The food disappears
 
 When the mouse is pressed,
-  a food's (which?) health will increase by 1
+  All food's health will increase by 1
 
 When a friend is clicked,
   one new food will appear
@@ -128,7 +128,7 @@ When satiation is less than 1,
   the mode changes to narrative_gating
 
 Every 3 seconds,
-  a friend (which?) rotates to a random direction
+  all friends rotate to a random direction
 
 While the mouse is held,
   the food is repelled from the cursor
@@ -144,10 +144,10 @@ When a blue triangle is clicked,
 When resource 2 is less than 7 and a red triangle overlaps a blue triangle,
   resource 1 increases by 4
   resource 2 increases by 4
-  The red triangle (which?) disappears
+  The red triangle disappears
 
 When the mouse is pressed,
-  the red triangle's (which?) "health" will increase by 1
+  each red triangle's "health" will increase by 1
 
 When a blue triangle is clicked,
   one new red triangle will appear
@@ -155,8 +155,8 @@ When a blue triangle is clicked,
 When resource 1 is less than 1,
   the mode changes to narrative_gating
 
-When the behavior_condition_polarity_entity_e_2_XX__XX__X_wander_X_tick_XX_ timer elapses,
-  a blue triangle (which?) rotates to a random direction
+Every 3 seconds,
+  all blue triangles rotate to a random direction
 
 While the mouse is held,
   red triangles are repelled from the cursor
