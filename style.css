@@ -1,11 +1,21 @@
 
-
+.parent-container {
+	display: flex;
+	height: 100vh;
+	align-items: center;  /* vertical center */
+	justify-content: center; /* horizontal center */
+	flex-direction: column;
+}
 
 .container {
 	display: flex;
+	flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+}
+
+#contents {
+	visibility: hidden;
 }
 
 pre {

@@ -57,38 +57,31 @@ reading(grinding,resource(r_1_XX_)).
 ==========
 With labels:
 
-Red triangles can be dragged around with the mouse.
+Red triangles can be dragged around with the mouse
 
 If a red triangle overlaps a red triangle:
   effort will increase by 1
   the area under the cursor will be set to clear color
   both of the red triangles will be deleted
 
-If effort is larger than 3 and there is less than 9 orange,
-  all red triangles' health will decrease by 7 over time
-  all red triangles' health will increase by 1 over time
+If effort is larger than 3 and there is less than 90% orange,
+  all red triangles' health will decrease by 6 over time
 
 If the mouse button is pressed,
   a red triangle will appear
 
-Every clock tick,
-  Red triangles that overlap will be separated
 ==========
 Without labels:
 
-Red triangles can be dragged around with the mouse.
+Red triangles can be dragged around with the mouse
 
 If a red triangle overlaps a red triangle:
-  resource 1 will increase by 1
+  effort will increase by 1
   the area under the cursor will be set to clear color
   both of the red triangles will be deleted
 
-If resource 1 is larger than 3 and there is less than 9 orange,
-  all red triangles' health will decrease by 7 over time
-  all red triangles' health will increase by 1 over time
+If effort is larger than 3 and there is less than 90% orange,
+  all red triangles' health will decrease by 6 over time
 
 If the mouse button is pressed,
   a red triangle will appear
-
-Every clock tick,
-  Red triangles that overlap will be separated
