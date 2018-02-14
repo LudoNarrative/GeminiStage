@@ -26,7 +26,8 @@ requirejs.config({
 		"game_3" : "../games/game_3.lp",
 		"game_4" : "../games/game_4.lp",
 		"game_5" : "../games/game_5.lp",
-		"game_6" : "../games/game_6.lp"
+		"game_6" : "../games/game_6.lp",
+		"dinner_1" : "../games/dinner_1.lp"
 
 	}
 
@@ -42,11 +43,11 @@ requirejs.config({
 
 requirejs(
 	["Phaser","AspPhaserGenerator","text!initialPhaserFile",
-	"text!game_1","text!game_2","text!game_3","text!game_4","text!game_5","text!game_6",
+	"text!game_1","text!game_2","text!game_3","text!game_4","text!game_5","text!game_6","text!dinner_1",
 	"text!HealthBar","text!State","text!Condition","text!Display","text!StoryAssembler",
 	"jQuery"],
 	function (Phaser, AspPhaserGenerator, initialPhaserFile, 
-		game_1,game_2,game_3,game_4,game_5,game_6, 
+		game_1,game_2,game_3,game_4,game_5,game_6,dinner_1,
 		HealthBar, State, Condition, Display, StoryAssembler) {
 
 	var gameFile = game_1;
@@ -93,7 +94,7 @@ requirejs(
 	// Discard the first line of the instructions ("With labels:" or "Without labels:")
 	instructions = instructions.substring(instructions.indexOf("\n",1) + 1);
 
-	$("#instructions").html("<h2>Game Information</h2>"+
+	$("#instructions").html("<h2>Beach Cleanup</h2>"+
 		"<pre>"+instructions+"</pre>");
 
 

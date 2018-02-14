@@ -29,3 +29,9 @@ div#instructions h2 {
 body {
 	font-family: Abel;
 }
+
+#game {
+	padding:20px;
+	margin:20px;
+	background:lightgrey;
+}
