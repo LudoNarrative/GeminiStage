@@ -105,39 +105,7 @@ reading(stakes(low),resource(r_1_XX_)).
 reading(stakes(low),resource(r_2_XX_)).
 reading(outcome_helps,relation(outcome(o_2_XX_),resource(r_1_XX_))).
 ==========
-With labels:
-
-Blue triangles are friends
-Red triangles are food
-
-When a friend is clicked,
-  the friend's health will increase by 10
-
-When fullness is less than 7 and food overlaps friend,
-  Satiation increases by 4
-  Fullness increases by 4
-  The food disappears
-
-When the mouse is pressed,
-  All food's health will increase by 1
-
-When a friend is clicked,
-  one new food will appear
-
-When satiation is less than 1,
-  the mode changes to narrative_gating
-
-Every 3 seconds,
-  all friends rotate to a random direction
-
-While the mouse is held,
-  the food is repelled from the cursor
-  the food's health decreases by 2
-  the food points itself towards the nearest cursor
-  the food moves backwards by 7
-==========
-Without labels:
-
+<pre>
 When a blue triangle is clicked,
   the blue triangle's health will increase by 10
 
@@ -163,3 +131,4 @@ While the mouse is held,
   red triangles' health decreases by 2
   red triangles point themselves towards the nearest cursor
   red triangles move backwards by 7
+</pre>

@@ -92,31 +92,7 @@ reading(tradeoff,entity(e_1_XX_)).
 reading(tradeoff,entity(e_2_XX_)).
 reading(outcome_helps,relation(outcome(o_2_XX_),resource(r_1_XX_))).
 ==========
-With labels:
-
-If a red triangle overlaps the blue triangle,
-  concentration decreases over time by 1
-
-If the mouse button is held and a red triangle overlaps the blue triangle,
-  concentration increases over time by 20
-
-If concentration is less than 1,
-  the game is lost
-
-If the mouse button is held,
-  concentration decreases over time by 1,
-  all red triangles point towards the cursor,
-  and all red triangles move backwards by an amount equal to concentration
-
-Every tick,
-  red triangles which overlap are separated,
-  blue triangles which overlap are separated,
-  concentration decreases over time by 1,
-  the blue triangle moves to its left by 5,
-  the blue triangle points towards the nearest red triangle
-==========
-Without labels:
-
+<pre>
 If a red triangle overlaps the blue triangle,
   resource 1 decreases over time by 1
 
@@ -137,3 +113,4 @@ Every tick,
   resource 1 decreases over time by 1,
   the blue triangle moves to its left by 5,
   the blue triangle points towards the nearest red triangle
+</pre>

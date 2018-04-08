@@ -89,8 +89,7 @@ reading(good,outcome(o_4_XX_)).
 reading(hand_eye_coordination,game).
 reading(help,relation(entity(e_2_XX_),player)).
 ==========
-With labels:
-
+<pre>
 Red triangles can be dragged around with the mouse.
 
 Every 7 seconds,
@@ -119,35 +118,4 @@ Every tick,
   all red triangles' health decreases over time by 5
   all red triangles' health increases over time by 4
   the blue triangle moves forward by an amount equal to resource 1
-
-==========
-Without labels:
-
-Red triangles can be dragged around with the mouse.
-
-Every 7 seconds,
-  the blue triangle draws blue
-  a red triangle appears
-
-Every 7 seconds,
-  a red triangle appears
-  the blue triangle rotates to a random direction
-
-When the blue triangle is clicked,
-  a red triangle appears
-
-When a red triangle overlaps a blue triangle,
-  the color behind the red triangle is erased
-  the red triangle disappears
-
-When the amount of blue is greater than 9,
-  the game is lost
-
-Every tick,
-  overlapping blue triangles are separated
-  overlapping red triangles are separated,
-  the value of resource 1 is set to the amount of clear on the screen
-  blue is drawn under the cursor
-  all red triangles' health decreases over time by 5
-  all red triangles' health increases over time by 4
-  the blue triangle moves forward by an amount equal to resource 1
+</pre>

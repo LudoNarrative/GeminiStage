@@ -55,26 +55,7 @@ reading(good,outcome(o_1_XX_)).
 reading(stakes(low),resource(r_1_XX_)).
 reading(grinding,resource(r_1_XX_)).
 ==========
-With labels:
-
-Red triangles are people. 
-
-They can be dragged around with the mouse.
-
-If a red triangle overlaps a red triangle:
-  effort will increase by 1
-  the area under the cursor will be set to clear color
-  both of the red triangles will be deleted
-
-If effort is larger than 3 and there is less than 90% orange,
-  all red triangles' health will decrease by 6 over time
-
-If the mouse button is pressed,
-  a red triangle will appear
-
-==========
-Without labels:
-
+<pre>
 Red triangles metaphorically represent people 
   trying to clean up a beach and save a crab population. 
 
@@ -87,3 +68,4 @@ If two people overlap:
 
 If the mouse button is pressed,
   a new person will appear.
+</pre>

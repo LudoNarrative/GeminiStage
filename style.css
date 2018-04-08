@@ -14,15 +14,20 @@
     justify-content: center;
 }
 
-#contents {
-	visibility: hidden;
+#input {
+	background: lightgrey; /*darkseagreen;*/
+    padding: 4px;
 }
 
 pre {
 	font-family: helvetica-light;
 }
 
-div#instructions h2 {
+#instructions {
+	font-family: helvetica-light;
+}
+
+div#instructionsdiv h2 {
 	margin-top:0;
 }
 

@@ -1,5 +1,5 @@
 label(resource(r_1_XX_),effort,write).
-label(entity(e_1_XX_),e(1)).
+label(entity(e_1_XX_),person).
 
 entity(e_1_XX_).
 
@@ -54,15 +54,4 @@ reading(good,outcome(o_1_XX_)).
 reading(stakes(low),resource(r_1_XX_)).
 reading(grinding,resource(r_1_XX_)).
 ==========
-<ul>
-<li>games/beach_1.lp</li>
-<li>GOAL:<ul>
-</ul></li>
-
-<li>SUBGOALS:<ul>
-<li>
-attempting to make a [[red|triangle]] and [[red|triangle]] touch
-</li>
-</ul></li>
-<li>CONTROLS:<ul>
-</ul></ul>
+<p>Click to invite more people. Drag them together to coordinate efforts.</p>

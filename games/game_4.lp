@@ -72,26 +72,7 @@ reading(bad,outcome(o_1_XX_)).
 reading(good,tick).
 reading(stakes(low),resource(r_1_XX_)).
 ==========
-With labels:
-
-The red triangle can be dragged around
-
-If the red triangle overlaps a blue triangle,
-  the blue triangle erases the color underneath it
-
-If the amount of blue on screen is less than 1,
-  the game is lost
-
-Every tick,
-  overlapping blue triangles are separated
-  overlapping red triangles are separated
-  concentration is set to the amount of blue on screen
-  blue triangles draw blue on the screen
-  the red triangle moves to its left by an amount equal to concentration
-  the red triangle points towards the nearest blue triangle
-==========
-Without labels:
-
+<pre>
 The red triangle can be dragged around
 
 If the red triangle overlaps a blue triangle,
@@ -107,3 +88,4 @@ Every tick,
   blue triangles draw blue on the screen
   the red triangle moves to its left by an amount equal to resource 1
   the red triangle points towards the nearest blue triangle
+</pre>
