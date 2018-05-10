@@ -51,8 +51,6 @@ requirejs(
 
 		var aspGameFile  = gameFile.split("==========")[0];
 		var instructions = gameFile.split("==========")[1];
-		//var instructionsWithLabels = gameFile.split("==========")[1];
-		//var instructionsNoLabels   = gameFile.split("==========")[2];
 	
 		// Compile Cygnus .lp files into Phaser code
 		//var generator = AspPhaserGenerator.AspPhaserGenerator (aspGameFile,initialPhaserFile);
@@ -72,14 +70,11 @@ requirejs(
 			+ State;
 	
 		eval(phaserProgram);
-	
-		//var instructions = instructionsNoLabels;
-	
-		// Discard the first line of the instructions ("With labels:" or "Without labels:")
-		//instructions = instructions.substring(instructions.indexOf("\n",1) + 1);
-	
+		
 		$("#instructionsdiv").prepend("<div id='instructions'>"//+"<h2>Beach Cleanup</h2>"
 			+instructions+"</div>");
+
+		console.log ("FINISHED PHASER PROGRAM:\n", phaserProgram);
 
 	}
 
