@@ -60,8 +60,17 @@ requirejs(
 		/* Phaser Game Constructor: new Game(width, height, renderer, parent, state, transparent, antialias, physicsConfig);
 		 * Creates a canvas element
 		 */
+
 		phaserProgram = 
-			"game = new Phaser.Game(500, 400, Phaser.AUTO, 'game', { preload: preload, create: create, update: update }, true);"
+			"game = new Phaser.Game({ \
+				width: 500, \
+				height: 400,\
+				renderer: Phaser.AUTO,\
+				parent: 'game',\
+				resolution: window.devicePixelRatio,\
+				transparent: true,\
+				state: { preload: preload, create: create, update: update }\
+			});"
 			+ Display
 			+ StoryAssembler
 			+ phaserProgram
