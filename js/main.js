@@ -85,6 +85,8 @@ requirejs(
 
 		console.log ("FINISHED PHASER PROGRAM:\n", phaserProgram);
 
+		document.getElementById("restart").onclick = function() { restartGame(); };
+
 	}
 
 	// Called when the file chooser form input is submitted
@@ -111,6 +113,12 @@ requirejs(
 	
 	    reader.readAsText(input.files[0]);
 	}
+
+
+	function restartGame() {
+		this.game.state.restart();
+	}
+
 
 });
 
